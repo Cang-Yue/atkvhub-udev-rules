@@ -1,0 +1,3 @@
+# ATK V HUB udev rules
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3554", MODE="0666"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="373b", MODE="0666"
